@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: add-Date
+# key: date
+# --
+时间：`(format-time-string "%Y年%m月%d日 %H时%M分 %A")`
+天气：
+
+$0
