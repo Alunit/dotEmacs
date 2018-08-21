@@ -9,7 +9,7 @@
  '(org-agenda-files (quote ("e:/agenda/201804.org")))
  '(package-selected-packages
    (quote
-    (ace-pinyin paredit nov avy counsel swiper magit smart-mode-line-powerline-theme smart-mode-line sql-indent browse-kill-ring ztree ahk-mode company ivy solarized-theme undo-tree yasnippet))))
+    (session ace-pinyin paredit nov avy counsel swiper magit smart-mode-line-powerline-theme smart-mode-line sql-indent browse-kill-ring ztree ahk-mode company ivy solarized-theme undo-tree yasnippet))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

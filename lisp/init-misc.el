@@ -6,6 +6,8 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
+(require 'session)
+
 (show-paren-mode 1)
 
 ;; browse kill ring
@@ -15,6 +17,8 @@
 (add-hook 'prog-mode-hook 'linum-mode)
 (add-hook 'prog-mode-hook 'electric-pair-mode)
 (add-hook 'prog-mode-hook 'company-mode)
+
+(add-hook 'after-init-hook 'session-initialize)
 
 ;; File behaviour
 (setq make-backup-files nil)
